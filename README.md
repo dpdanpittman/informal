@@ -12,12 +12,24 @@ Some initial setup may be required to use PGP for signing commits. Below is a li
 
 ### Building The Application
 
-To build the application, the developer needs to clone the repository and follow the installation instructions. These instructions may vary depending on the chosen operating system for the build. To contribute to the project, the user should fork the repository and develop from their own branch. However, for the purpose of this task, we will only be building the application for personal use.
-
 Since this task involves building clusters that communicate with each other, I have chosen to set up cloud instances. I started with one instance initially and added the additional virtual machine (VM) towards the end of the project.
+
+**Server Specs:**
+```
+Regular Performance Intel Cloud Compute Share vCPU
+4 vCPU
+8 gb RAM
+160gb SSD
+Ubuntu 22.04
+```
 
 2. [Setting up a cloud server](docs/setupCloudServer.md)
 
 Next, we will proceed to build the application on our newly configured virtual machine (VM).
 
 3. [Building the Application](docs/buildApp.md)
+   
+After completing the build using Cargo, we will want to transpose the application into a Docker image.
+
+5. [Install Docker](dockerInstall.md)
+
