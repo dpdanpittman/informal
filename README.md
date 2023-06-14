@@ -40,3 +40,7 @@ Docker Image Download [Link](https://drive.google.com/drive/folders/1lnxMWpxgdt9
 Next, we will use an orchestration tool to launch multiple containers on localhost. For this task, I have chosen to use Docker Compose. By utilizing Docker Compose on localhost, we can efficiently manage and deploy the required containers for our application. Docker Compose simplifies the process of defining and running multi-container applications, allowing us to define the services, their configurations, and the communication between them in a declarative manner. This approach provides an efficient and scalable solution for our orchestration needs.
 
 6. [Launch Multiple Containers](docs/containers.md)
+
+### Possible Issue and Resolution
+
+7. [Issue and Runbok](docs/issues.md)
