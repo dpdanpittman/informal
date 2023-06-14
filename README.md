@@ -31,5 +31,5 @@ Next, we will proceed to build the application on our newly configured virtual m
    
 After completing the build using Cargo, we will want to transpose the application into a Docker image.
 
-5. [Install Docker](dockerInstall.md)
+5. [Install Docker](docs/dockerInstall.md)
 
