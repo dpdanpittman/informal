@@ -25,22 +25,22 @@ Next, create a YAML file (e.g., docker-compose.yml) to define the containers for
 
 docker-compose.yml:
 ```yml
-version: '2.18.1'
+version: '2'
 services:
   dns-server1:
     image: trust-dns-image
-      ports:
-      - 51:51
+    ports:
+      - 54:54
 
   dns-server2:
     image: trust-dns-image
-      ports:
-      - 52:52
+    ports:
+      - 55:55
 
   dns-server3:
     image: trust-dns-image
-      ports:
-      - 53:53
+    ports:
+      - 56:56
 ```
 
 The above `yml` file defines each container, the image it uses and port number.  

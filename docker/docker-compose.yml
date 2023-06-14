@@ -1,16 +1,16 @@
 version: '2.18.1'
 services:
   dns-server1:
-    image: trust-dns-image
-      ports:
+    image: trust-dns-image-2
+    ports:
         - 51:51
 
   dns-server2:
-    image: trust-dns-image
-      ports:
+    image: trust-dns-image-2
+    ports:
         - 52:52
 
   dns-server3:
-    image: trust-dns-image
-      ports:
+    image: trust-dns-image-2
+    ports:
         - 53:53
