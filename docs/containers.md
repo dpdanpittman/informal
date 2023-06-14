@@ -56,5 +56,18 @@ docker-compose up -d
 ```shell
 docker-compose ps
 ```
-
 ![Cluster Running](../images/docker-compose.png)
+
+Now that the containers are setup on the default network your DNS cluster is complete.  To test the DNS server please use the following command to send a query.
+```shell
+resolve www.example.com.
+```
+
+If this command was successful you should see the following output.
+```shell
+Querying for www.example.com. A from udp:8.8.8.8:53, tcp:8.8.8.8:53, udp:8.8.4.4:53, tcp:8.8.4.4:53, udp:[2001:4860:4860::8888]:53, tcp:[2001:4860:4860::8888]:53, udp:[2001:4860:4860::8844]:53, tcp:[2001:4860:4860::8844]:53
+Success for query www.example.com. IN A
+        www.example.com. 19758 IN A 93.184.216.34
+```
+
+![Success Query](../images/query.png)
