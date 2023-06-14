@@ -10,7 +10,7 @@ Some initial setup may be required to use PGP for signing commits. Below is a li
 
 1. [Github Configuration](docs/githubConfiguration.md)
 
-### Building The Application
+### Build and Dockerize Application
 
 Since this task involves building clusters that communicate with each other, I have chosen to set up cloud instances. I started with one instance initially and added the additional virtual machine (VM) towards the end of the project.
 
@@ -31,5 +31,12 @@ Next, we will proceed to build the application on our newly configured virtual m
    
 After completing the build using Cargo, we will want to transpose the application into a Docker image.
 
-5. [Install Docker](docs/dockerInstall.md)
+5. [Install Docker and Dockerize](docs/dockerInstall.md)
 
+Docker Image Download [Link](https://drive.google.com/drive/folders/1lnxMWpxgdt9_JX7mcuXEC-nIFGufycjZ?usp=sharing)
+
+### Building the Cluster
+
+Next, we will use an orchestration tool to launch multiple containers on localhost. For this task, I have chosen to use Docker Compose. By utilizing Docker Compose on localhost, we can efficiently manage and deploy the required containers for our application. Docker Compose simplifies the process of defining and running multi-container applications, allowing us to define the services, their configurations, and the communication between them in a declarative manner. This approach provides an efficient and scalable solution for our orchestration needs.
+
+6. [Launch Multiple Containers](docs/containers.md)
