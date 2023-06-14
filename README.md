@@ -2,7 +2,7 @@
 
 ## Setting up a DNS Server
 
-_Disclaimer: Some of the basic setup instructions, such as creating a GPG key and setting up an instance on Vultr, were sourced from the web and slightly modified for the purposes of this documentation._
+_Disclaimer: Some of the basic setup instructions, such as creating a GPG key and setting up an instance on Vultr, were sourced from the web and slightly modified for the purposes of this documentation. ChatGPT was used to format the documentation in this repository._
 
 ### Github Configuration
 
@@ -43,4 +43,4 @@ Next, we will use an orchestration tool to launch multiple containers on localho
 
 ### Possible Issue and Resolution
 
-7. [Issue and Runbok](docs/issues.md)
+7. [Issue and Runbook](docs/issues.md)
