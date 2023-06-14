@@ -56,3 +56,5 @@ docker-compose up -d
 ```shell
 docker-compose ps
 ```
+
+![Cluster Running](../images/docker-compose.png)
